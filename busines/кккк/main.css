@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Economica|Open+Sans:300,400');
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 300 14px/20px 'Open Sans', 'sans-serif';
+}
+h2,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+span,
+a,
+div,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  font-size: 13px;
+  color: #000;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Open Sans', 'sans-serif';
+  font-weight: normal;
+}
+.navs-head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid royalblue;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.uls-head {
+  display: flex;
+  border: 1px solid royalblue;
+}
+.uls-head li a {
+  padding: .9em 1.5em;
+  display: block;
+}
+.uls-head2 {
+  display: flex;
+}
+.uls-head2 li a {
+  padding: .9em 1.5em;
+  display: block;
+}
+.inputs-head {
+  display: flex;
+}
+.inputs-head .inphed {
+  border: none;
+  padding: .9em 1.5em;
+}
